@@ -80,3 +80,11 @@ body {
     border-radius: 0.5rem;
     position: absolute;
 }
+
+.bottom-card-detail{
+  margin-top: 0.1rem;
+}
+
+.top-card-detail{
+  margin-bottom: 0.1rem;
+}
