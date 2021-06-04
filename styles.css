@@ -5,6 +5,7 @@
 :root {
   --main-bg-color: blue;
   --card-chip: url("https://usa.visa.com/dam/VCOM/regional/na/us/pay-with-visa/images/card-chip-800x450.png")
+    /* --card-chip: url("/card-chip.png") */
 }
 
 html { font-size: 62.5%; }
@@ -55,8 +56,10 @@ body {
 /* credit card chip style */
 .card-chip {
   z-index: 100;
-  background-image: var(--card-chip);
+  background: var(--card-chip);
+  background-repeat:no-repeat;
+  background-size:contain;
   border-radius: 0.5rem;
-  width: 5rem;
-  height: 5rem;
+  width: 10rem;
+  height: 10rem;
 }
