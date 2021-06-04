@@ -25,6 +25,8 @@ body {
   height:25rem;
   border-radius: 0.5rem;
   cursor: pointer;
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(30px);  /* This will produce the blur */
 }
 
 /* This container is needed to position the front and back side */
@@ -98,4 +100,5 @@ body {
 .credit-font {
   font-size:3.5rem;
   letter-spacing:2px;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
 }
