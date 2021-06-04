@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main-bg-color: blue;
+  --card-chip: url("https://usa.visa.com/dam/VCOM/regional/na/us/pay-with-visa/images/card-chip-800x450.png")
+}
+
 html { font-size: 62.5%; }
 
 body {
@@ -13,16 +18,18 @@ body {
 }
 
 .card-container {
-  background-color: blue;
+  background-color: var(--main-bg-color);
   perspective: 1000px; /* Adds 3D effect */
   min-width:40rem;
   height:25rem;
+  border-radius: 0.5rem;
   cursor: pointer;
 }
 
 /* This container is needed to position the front and back side */
 .card-container-inner {
   background-color: red;
+  border-radius: 0.5rem;
   position: relative;
   width: 100%;
   height: 100%;
