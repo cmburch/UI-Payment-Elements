@@ -71,6 +71,8 @@ body {
 
 .card-details {
     display: flex;
+    justify-content: space-between;
+    padding: 0px 2rem;
     background: blue;
     bottom: 0px;
     width: 100%;
