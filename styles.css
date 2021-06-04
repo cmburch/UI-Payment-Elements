@@ -88,3 +88,8 @@ body {
 .top-card-detail{
   margin-bottom: 0.5rem;
 }
+
+.credit-card-number {
+  position:absolute;
+  top:10rem;
+}
