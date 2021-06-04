@@ -68,3 +68,10 @@ body {
   width: 12rem;
   height: 10rem;
 }
+
+.card-details {
+  display:flex;
+  background: blue;
+  z-index: 1000;
+  height: 7rem;
+}
