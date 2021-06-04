@@ -54,6 +54,9 @@ body {
 
 /* credit card chip style */
 .card-chip {
+  z-index: 100;
+  background-image: var(--card-chip);
+  border-radius: 0.5rem;
   width: 5rem;
   height: 5rem;
 }
