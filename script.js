@@ -28,6 +28,13 @@ function onCardNumberChange() {
 //          x.value = x.value + '-';
 // }
 
-document.querySelector('.card').addEventListener('click', e => {
-  e.currentTarget.classList.toggle('flipped');
+document.querySelector('.card-container').addEventListener('click', e => {
+  // e.classList.toggle.toggle('flipped');
+  console.log('flipped',e);
 })
+
+function onload(){
+  console.log('onload')
+}
+
+onload()
