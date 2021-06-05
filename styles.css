@@ -48,6 +48,10 @@ body {
   transform: rotateY(180deg);
 }
 
+.flip {
+  transform: rotateY(180deg);
+}
+
 /* Position the front and back side */
 .card-front, .card-back {
   position: absolute;
@@ -83,6 +87,7 @@ body {
     height: 7rem;
     border-radius: 0.5rem;
     position: absolute;
+    letter-spacing:1px;
 }
 
 .bottom-card-detail{

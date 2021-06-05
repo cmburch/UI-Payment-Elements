@@ -28,10 +28,6 @@ function onCardNumberChange() {
 //          x.value = x.value + '-';
 // }
 
-function splitToChunks(items, chunkSize = 4) {
-  const result = [];
-  for (let i = 0; i < items.length; i+= chunkSize) {
-    result.push(items.slice(i, i + chunkSize));
-  }
-  return result;
-}
+document.querySelector('.card').addEventListener('click', e => {
+  e.currentTarget.classList.toggle('flipped');
+})
