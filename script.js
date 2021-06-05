@@ -35,10 +35,10 @@ function onCardNumberChange() {
 
 function cardFlip(){
   console.log('onload')
-  document.querySelector('.card-container').addEventListener('click', e => {
-    // let el = document.getElementById("card-number");
-    // el.classList.toggle.toggle('flipped');
-    // console.log('flipped', e);
+  document.querySelector('.card-container-inner').addEventListener('click', e => {
+    let el = document.getElementById("card-flip");
+    el.classList.toggle('flipped');
+    console.log('flipped', e);
   })
 }
 
