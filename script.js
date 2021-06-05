@@ -33,13 +33,20 @@ function onCardNumberChange() {
 //   console.log('flipped',e);
 // })
 
+// function cardFlip(){
+//   console.log('onload')
+//   document.querySelector('.card-container-inner').addEventListener('click', e => {
+//     let el = document.getElementById("card-flip");
+//     el.classList.toggle('flipped');
+//     console.log('flipped', e);
+//   })
+// }
+
 function cardFlip(){
   console.log('onload')
-  document.querySelector('.card-container-inner').addEventListener('click', e => {
-    let el = document.getElementById("card-flip");
-    el.classList.toggle('flipped');
-    console.log('flipped', e);
-  })
+  let el = document.getElementById("card-flip");
+  el.classList.toggle('flipped');
+  console.log('flipped');
 }
 
 // onload()
