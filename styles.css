@@ -33,7 +33,7 @@ body {
 
 /* This container is needed to position the front and back side */
 .card-container-inner {
-  background-color: red;
+  /* background-color: red; */
   border-radius: 0.5rem;
   position: relative;
   width: 100%;
@@ -46,6 +46,13 @@ body {
 /* Do an horizontal flip when you move the mouse over the flip box container */
 .card-container:hover .card-container-inner {
   /* transform: rotateY(180deg); */
+}
+
+.card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 0.5rem;
 }
 
 .flipped {
