@@ -28,13 +28,18 @@ function onCardNumberChange() {
 //          x.value = x.value + '-';
 // }
 
-document.querySelector('.card-container').addEventListener('click', e => {
-  // e.classList.toggle.toggle('flipped');
-  console.log('flipped',e);
-})
+// document.querySelector('.card-container').addEventListener('click', e => {
+//   // e.classList.toggle.toggle('flipped');
+//   console.log('flipped',e);
+// })
 
-function onload(){
+function cardFlip(){
   console.log('onload')
+  document.querySelector('.card-container').addEventListener('click', e => {
+    // let el = document.getElementById("card-number");
+    // el.classList.toggle.toggle('flipped');
+    // console.log('flipped', e);
+  })
 }
 
-onload()
+// onload()
