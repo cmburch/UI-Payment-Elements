@@ -7,7 +7,34 @@
 </head>
 
 <body>
-  <div class="card-container">
+  <div class="flip-card card-container">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <div class="card-chip"></div>
+        <div class="credit-font credit-card-number"></div>
+        <div id="card-number" class="credit-font credit-card-number"></div>
+
+        <div class="card-details">
+          <div>
+            <h3 class='top-card-detail'>Card Holder</h3>
+            <h1 class='bottom-card-detail'>Fake User</h1>
+          </div>
+          <div>
+            <h3 class='top-card-detail'>Expires</h3>
+            <h1 class='bottom-card-detail'>10/25</h1>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card-back">
+        <div class="strip"></div>
+        <div class="ccv">
+          <label class='csv-label'>CCV</label>
+          <div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="card-container">
     <div onclick="cardFlip()" id='card-flip' class="card-container-inner">
       <div class="card-front">
         <div class="card-chip"></div>
@@ -37,7 +64,7 @@
     </div>
   </div>
   <input type="text" id="card-element" oninput="onCardNumberChange()">
-  <p class="credit-font credit-card-number"></p>
+  <p class="credit-font credit-card-number"></p> -->
   <script src="script.js"></script>
 </body>
 
