@@ -18,20 +18,19 @@ function onCardNumberChange() {
 }
 
 function onCardHoldeChange() {
-  let currentValue = document.getElementById('card-number').innerHTML;
   var x = document.getElementsByName('cardholder')[0].value;
   var newval = '';
   console.log(x.length);
 
   document.getElementById('cardholder').innerHTML = x;
-  // if (x.length % 4 == 0) {
-  //   for (var i = 0; i < x.length; i++) {
-  //     if (i % 4 == 0 && i > 0) newval = newval.concat('&nbsp');
-  //     newval = newval.concat(x[i]);
-  //   }
-  //   document.getElementById('card-number').innerHTML = newval;
-  //   console.log(newval);
-  // }
+}
+
+function onCvcNumberChange() {
+  var x = document.getElementsByName('cvc')[0].value;
+  var newval = '';
+  console.log(x.length);
+
+  document.getElementById('cardholder').innerHTML = x;
 }
 
 // function onCardNumberChange() {
