@@ -1,5 +1,4 @@
-console.log('hello!')
-
+console.log('hello!');
 
 function onCardNumberChange() {
   let currentValue = document.getElementById('card-number').innerHTML;
@@ -16,6 +15,23 @@ function onCardNumberChange() {
     document.getElementById('card-number').innerHTML = newval;
     console.log(newval);
   }
+}
+
+function onCardHoldeChange() {
+  let currentValue = document.getElementById('card-number').innerHTML;
+  var x = document.getElementsByName('cardholder')[0].value;
+  var newval = '';
+  console.log(x.length);
+
+  document.getElementById('cardholder').innerHTML = x;
+  // if (x.length % 4 == 0) {
+  //   for (var i = 0; i < x.length; i++) {
+  //     if (i % 4 == 0 && i > 0) newval = newval.concat('&nbsp');
+  //     newval = newval.concat(x[i]);
+  //   }
+  //   document.getElementById('card-number').innerHTML = newval;
+  //   console.log(newval);
+  // }
 }
 
 // function onCardNumberChange() {
@@ -60,21 +76,20 @@ function onCardNumberChange() {
 //   })
 // }
 
-function cardFlip(){
-  console.log('onload')
-  let el = document.getElementById("card-flip");
+function cardFlip() {
+  console.log('onload');
+  let el = document.getElementById('card-flip');
   el.classList.toggle('flipped');
   console.log('flipped');
 }
 
-function onload(){
+function onload() {
   var isChromium = !!window.chrome;
 
-  if(isChromium){
-    document.getElementById("card-front").style.overflow = "hidden";
+  if (isChromium) {
+    document.getElementById('card-front').style.overflow = 'hidden';
   }
 }
-
 
 onload();
 
