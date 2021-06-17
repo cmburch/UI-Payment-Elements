@@ -39,6 +39,9 @@ function onCvcNumberChange() {
   console.log(x.length);
 
   document.getElementById('cardholder').innerHTML = x;
+  // if(x.length == 2){
+
+  // }
 }
 
 // function onCardNumberChange() {
