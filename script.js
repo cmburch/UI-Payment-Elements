@@ -25,6 +25,14 @@ function onCardHoldeChange() {
   document.getElementById('cardholder').innerHTML = x;
 }
 
+function onCardExpirationDateChange() {
+  var x = document.getElementsByName('exp-date')[0].value;
+  var newval = '';
+  console.log(x.length);
+
+  document.getElementById('card-exp-date').innerHTML = x;
+}
+
 function onCvcNumberChange() {
   var x = document.getElementsByName('cvc')[0].value;
   var newval = '';
