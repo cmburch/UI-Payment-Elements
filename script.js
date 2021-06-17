@@ -49,4 +49,15 @@ function cardFlip(){
   console.log('flipped');
 }
 
+function onload(){
+  var isChromium = !!window.chrome;
+
+  if(isChromium){
+    document.getElementById("card-front").style.overflow = "hidden";
+  }
+}
+
+
+onload();
+
 // onload()
