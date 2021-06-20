@@ -38,7 +38,7 @@ function onCvcNumberChange() {
   var newval = '';
   console.log(x.length);
 
-  document.getElementById('cardholder').innerHTML = x;
+  document.getElementById('csv-number').innerHTML = x;
   // if(x.length == 2){
 
   // }
