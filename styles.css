@@ -150,3 +150,8 @@
   margin: -25px 0 14px;
   color: #fff;
 }
+
+label.csv-label {
+  position: relative;
+  left: -35px;
+}
