@@ -45,12 +45,12 @@
 
 .flip-card-front {
   /* background-color: #bbb; */
-  background-color: #2980b9;
-  color: black;
+  background-color: #0b9160;
+  color: white;
 }
 
 .flip-card-back {
-  background-color: #2980b9;
+  background-color: #038857;
   color: white;
   transform: rotateY(180deg);
 }
