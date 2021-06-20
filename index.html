@@ -8,7 +8,7 @@
 
 <body>
   <div class="flip-card card-container">
-    <div class="flip-card-inner">
+    <div id='card-flip' class="flip-card-inner">
       <div id='card-front' class="flip-card-front">
         <div class="card-chip"></div>
         <div class="credit-font credit-card-number"></div>
@@ -51,7 +51,7 @@
   <br>
   <br>
 
-  <input oninput="onCvcNumberChange()" class="InputElement is-empty Input Input--empty" autocomplete="cc-csc" autocorrect="off" spellcheck="false" type="text" name="cvc" data-elements-stable-field-name="cardCvc" inputmode="numeric" aria-label="Credit or debit card CVC/CVV" placeholder="CVC" aria-invalid="false" value="">
+  <input onfocus="cardFlip()" oninput="onCvcNumberChange()" class="InputElement is-empty Input Input--empty" autocomplete="cc-csc" autocorrect="off" spellcheck="false" type="text" name="cvc" data-elements-stable-field-name="cardCvc" inputmode="numeric" aria-label="Credit or debit card CVC/CVV" placeholder="CVC" aria-invalid="false" value="">
 
   <!-- <div class="card-container">
     <div onclick="cardFlip()" id='card-flip' class="card-container-inner">
