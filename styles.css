@@ -155,3 +155,8 @@ label.csv-label {
   position: relative;
   left: -35px;
 }
+
+.csv-number {
+  position: relative;
+  top: -20px;
+}
